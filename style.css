@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+      max-width: 1440px;
+      margin: 0 auto;
+  }
+  
+  body{
+      background-color: rgb(79, 2, 114);
+      height: 100vh;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .wrapper{
+      width: 600px;
+      min-height: 450px;
+      background-color: whitesmoke;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  }
+  
+  .wrapper-form{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .add-input{
+      width: 75%;
+      height: 44px;
+      padding: 20px;
+      border-radius: 22px ;
+      border: none;
+      outline: none;
+  }
+  
+  #btn{
+      width: 23%;
+      height: 44px;
+      /* padding: 20px; */
+      border-radius: 22px ;
+      border: none;
+      background-color: orangered;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+  #btn:hover{
+      background-color: rgb(225, 62, 2);
+  }
+  
+  #btn:active{
+      transform: scale(0.92);
+  }
+  
+  input{
+      height: 20px;
+      width: 20px;
+  }
+  
+  .wrapper-lists{
+      margin-top: 40px;
+  }
+  
+  .list{
+      display: flex;
+      gap: 15px;
+      margin: 10px 0;
+  }
+.deleteBtn{
+    padding: 5px 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 50%;
+}
